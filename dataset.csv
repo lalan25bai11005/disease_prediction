@@ -1,0 +1,11 @@
+fever,cough,headache,fatigue,body_pain,age,disease
+1,1,1,1,1,25,Flu
+0,0,1,1,0,30,Migraine
+0,0,0,1,0,45,Diabetes
+0,0,0,1,1,55,Heart Disease
+1,1,0,0,0,20,Allergy
+1,0,1,1,1,28,Flu
+0,0,1,0,0,35,Migraine
+0,0,0,1,0,50,Diabetes
+0,0,0,1,1,60,Heart Disease
+1,1,0,0,0,22,Allergy
