@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disease Prediction</title>
+</head>
+<body>
+
+<h2>Disease Prediction System</h2>
+
+<form action="/predict" method="post">
+    Fever (0/1): <input type="number" name="fever"><br>
+    Cough (0/1): <input type="number" name="cough"><br>
+    Headache (0/1): <input type="number" name="headache"><br>
+    Fatigue (0/1): <input type="number" name="fatigue"><br>
+    Body Pain (0/1): <input type="number" name="body_pain"><br>
+    Age: <input type="number" name="age"><br><br>
+
+    <button type="submit">Predict</button>
+</form>
+
+{% if result %}
+<h3>Predicted Disease: {{ result }}</h3>
+{% endif %}
+
+</body>
+</html>
