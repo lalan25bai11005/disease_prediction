@@ -1,6 +1,10 @@
 from flask import Flask, render_template, request
 import pickle
 import numpy as np
+import os
+
+if not os.path.exists("model.pkl"):
+    raise Exception("Model not trained. Run train.py first.")
 
 app = Flask(__name__)
 
