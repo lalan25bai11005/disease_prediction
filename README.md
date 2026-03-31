@@ -65,7 +65,7 @@ disease_prediction/
 ### 1. Clone or download the project
 
 ```bash
-git clone <your-repo-link>
+git clone <https://github.com/lalan25bai11005/disease_prediction.git>
 cd disease_prediction
 ```
 
